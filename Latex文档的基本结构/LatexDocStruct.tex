@@ -1,0 +1,45 @@
+\documentclass[fontset=windows]{ctexbook}
+%\usepackage{ctex}
+
+% 设置标题的格式
+\ctexset{
+    section={
+        format+ = \zihao{4} \bfseries \raggedright,
+        name ={,、},
+        number = \chinese{section},
+        beforeskip =1.0ex plus 0.2ex minus .2ex,
+        afterskip =1.0ex plus 0.2ex minus .2ex,
+        aftername = \hspace{0pt},
+    },
+    subsection={
+        format+ = \zihao{5} \bfseries \raggedright,
+        name ={,、},
+        number = \arabic{subsection},
+        beforeskip =1.0ex plus 0.2ex minus .2ex,
+        afterskip =1.0ex plus 0.2ex minus .2ex,
+        aftername = \hspace{0pt},
+    }
+}
+
+\begin{document}
+    \tableofcontents    % 生成目录
+    
+    \chapter{绪论}
+    \section{研究的目的和意义}
+
+    \chapter{实验与结果分析}
+    \section{引言}
+    近年来，随着逆向工程和三维重建技术的发展和应用，获取现实世界中
+    物体的三维数据的方法越来越多。
+
+    近年来，随着逆向工程和三维重建技术的发展和应用，\par 获取现实世界中
+    物体的三维数据的方法越来越多。
+    \section{实验方法}
+    \section{实验结果}
+    \subsection{数据}
+    \subsection{图表}
+    \subsubsection{实验条件}
+    \subsubsection{实验过程}
+    \section{结论}
+    \section{致谢}
+\end{document}
